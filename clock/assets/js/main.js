@@ -8,7 +8,7 @@ const hour = document.getElementById('clock-hour'),
 const clock = () =>{
     let date = new Date()
 
-    let hh = (date.getHours()+1) * 30,
+    let hh = (date.getHours()) * 30,
         mm = date.getMinutes() * 6,
         ss = date.getSeconds() * 6
         
