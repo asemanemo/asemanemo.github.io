@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/** Part 2 : ***/
+html {
+    background: rgb(245, 244, 233);
+    overflow-x: hidden;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width:200px;
+    height:107;
+    margin-top: 20px;
+}
+
+/* section {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom:1px;
+
+} */
+
+
+.charity {
+    display:block;
+    justify-content: right;
+    align-items: right;
+    width: 30px;
+    height: 30px;
+    margin-left: 93%;
+    margin-top: -58px;
+}
+
+.charity-tex {
+    font-family: 'Morabba', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 1.2rem;
+    margin-top: 6px;
+    margin-left: -15px;
+    color:rgb(152, 170, 186);
+
+}
+
+section p {  
+    position:absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    bottom:0;
+    margin-top: 120px;
+    margin-bottom: -1250px;
+    margin-left: 620px;
+    /* padding-bottom: -200px; */
+    color:rgb(255, 254, 218);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+
+.spacer {
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: center;
+    background-size: cover;
+    margin-bottom: 1px;
+
+}
+
+    .layer {
+        background-image: url("./wave-haikei1.svg");
+        /* background-color: rgb(0, 32, 81); */
+    }
+
+
+
+
+
+.more-today {
+    display:flex;
+    justify-content: right;
+
+  }
+
+  .more-today div{
+      display:flex;
+      background: rgb(136, 233, 237);
+      height:200px;
+      width: 300px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: -350px;
+      margin-bottom: 70px;
+      border-radius: 8px;
+      align-items: right;
+      justify-content: right;
+      box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.2),
+                  -6px -6px 10px -1px rgba(255,255,255,0.7);
+      border: 1px solid rgba(0,0,0,0);
+    }
+    
+
+    .more-today img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin-right: 115px;
+    }
+
+
+
+    .more-today p {
+        font-size: 20px;
+        font-weight: 700;
+        /* margin-top: 95px; */
+        /* margin-left: 150px;
+        margin-right: -220px; */
+
+    }
+
+
+    
+    /* .more-today span {
+        margin
+    } */
+
+
+.shamsi {
+
+    font-family: 'Morabba', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 80px;
+    margin-right: -228px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.miladi {
+    margin-top: 80px;
+    margin-right: -105px;
+    /* padding-left:100px; */
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.ghamari {
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: -240px;
+    /* padding-left:100px; */
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+
+.shamsi-long {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    white-space: nowrap;
+    font-family: 'Morabba', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 115px;
+    margin-right: -100px;
+    margin-top: 100px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+.miladi-long {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: -91px;
+    /* margin-right: -100px; */
+    margin-top: 100px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+.ghamari-long {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 115px;
+    margin-right: -100px;
+    margin-top: 100px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+
+    /* .layer {
+    background-image: url('./wave-haikei2.svg');
+} */
+
+
+
+/* .clock__container + .spacer {
+    margin-top : -500px;
+} */
+
+/**Calendar Styles **/
+
+
+
+/**Change position here**/
+
+.container{
+    width: 100%;
+    height:100vh;
+    /* background:linear-gradient(to right top,rgb(161, 204, 209), rgb(190, 209, 211)); */
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom: 250px;
+    padding-top: 1px;
+
+}
+
+.calendar {
+    width: 50rem;
+    height: 47rem;
+    background: rgb(175, 204, 157);
+    box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.2);
+
+    /**For rounding border**/
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    margin-top: 1px;
+    
+}
+
+
+/** Space between month at the top and the day beneth it **/
+.month {
+    width:100%;
+    height:7rem;
+    background: rgb(255, 190, 79);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0 1.7rem;
+    text-align:center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.6);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    
+
+}
+
+.month i {
+    font-size:1.7rem;
+    cursor: pointer;
+
+}
+
+.month h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+
+}
+
+.month p {
+    font-size: 1.1rem;
+}
+
+.weekday {
+    /** Width dosnt do anything**/
+    width: 100%;
+    height: 5rem;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items:center; 
+      
+}
+
+.weekday div {
+    font-size: 1.4rem;
+    font-weight:700;
+    letter-spacing: 0.2rem;
+    width: calc(48rem/7);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-shadow: 0 0.3rem 0.6rem rgba(0,0,0,0.6);
+    font-family: 'Morabba', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+
+}
+
+
+.date h1, .date p {
+    font-family: 'Morabba', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.date h1 {
+    font-size: 2.3rem;
+    margin-top: -25px;
+}
+
+
+/**fix the padding for days and align it to the Sun Mon... ath the top**/
+
+.days {
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding-top: 0.1rem;
+}
+
+
+
+/** You can dont divid ".days div" and put it all inside ".days" **/
+
+.days div {
+    font-size: 1.4rem;
+    
+    margin: 0.4rem;
+    width: calc(42.4rem/7);
+    height: 5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+    
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+    background-color: rgb(138, 174, 164);
+    border: 2rem solid rgb(138, 174, 164);
+    cursor: pointer;
+    clip-path: circle(30px);
+  
+}
+
+.previous-date,
+.next-date {
+    opacity:0.4;
+}
+
+.today {
+    background-color: rgb(237, 116, 92);
+    clip-path: circle(30px);
+}
+
+
+
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 480px) {
+    
+    header {
+        margin-left: 170px;
+        margin-bottom: 150px;
+    }
+
+
+    .charity {
+        margin-left: 125% !important;
+        margin-top: -54% !important;
+    }
+
+
+    .container{
+        /* margin-top: -1650px; */
+        transform: scale(0.6);
+        margin-left: 180px;
+        margin-bottom: -20px;
+        margin-left: 80px;
+        
+    }
+    
+    
+    .more-today {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 330px;
+        margin-bottom: 250px;
+        margin-left: 160px;
+    }
+    
+    .more-today div {
+
+        width:300px;
+        height: 200px;
+        margin-top: 3px;
+        padding-bottom: 40px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .more-today img {
+        margin-top: -105px;
+    }
+
+    
+    .shamsi, .ghamari, .miladi {
+        margin-top: 30px;
+    }
+
+    /* .miladi {
+        margin-left: 8px;
+        margin-right: -215px;
+    } */
+
+    .shamsi-long {
+        margin-right: -96px;
+    }
+
+    .miladi-long {
+        margin-right: -85px;
+    }
+
+
+    .ghamari-long {
+        margin-right: -97px;
+    }
+
+
+
+    .spacer {
+        aspect-ratio: 900/300;
+        transform: scale(1.5);
+    }
+
+    section {
+        transform: scale(1.5);
+
+        width: 20px;
+        margin-left: 70px;
+        margin-top: 6px;
+
+    }
+    section p {
+        margin-bottom: 3px;
+        font-size: 15px;
+        margin-left: 30%;
+
+    }
+}
+
+
