@@ -31,7 +31,7 @@ const textHour = document.getElementById('text-hour'),
 const clockText = () =>{
     let date = new Date()
 
-    let hh = date.getHours()+1,
+    let hh = date.getHours(),
         ampm,
         mm = date.getMinutes(),
         day = date.getDate(),
